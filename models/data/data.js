@@ -10,27 +10,33 @@ import Manufacturer from '../Manufacturer.js'
 import Product from '../Product.js'
 
 
-let newUsers = async(users) => await User.insertMany(users)
-let newCategories = async(categories) => await Category.insertMany(categories)
-let newManufacturers = async(manufacturers) => await Manufacturer.insertMany(manufacturers)
+let newUsers = async (users) => await User.insertMany(users)
+let newCategories = async (categories) => await Category.insertMany(categories)
+let newManufacturers = async (manufacturers) => await Manufacturer.insertMany(manufacturers)
 
-let newProducts = async(products) => {
+let newProducts = async (products) => {
     for (let product of products) {
         let category = await Category.findOne({ name: product.category_id })
         let manufacturer = await Manufacturer.findOne({ name: product.manufacturer_id })
-        product.manufacturer_id = manufacturer._id
-        product.category_id = category._id
+        if (manufacturer) {
+            product.manufacturer_id = manufacturer._id
+        } else {
+            delete product.manufacturer_id
+        }
+        if (category) {
+            product.category_id = category._id
+        }
         await Product.create(product)
     }
 }
 
 let data = async () => {
-  
+
     await newUsers(users)
     await newCategories(categories)
     await newManufacturers(manufacturers)
     await newProducts(products)
-  
+
     console.log('done!')
 }
 
