@@ -16,7 +16,7 @@ export let products = [
     category_id: "Electronics",
     manufacturer_id: "ABC Electronics",
     stock_Available: 15,
-    photo: "https://i0.wp.com/ytimg.googleusercontent.com/vi/tpGwx16MgDs/maxresdefault.jpg?w=180&h=180&c=1",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/wireless_bluetooth_speaker_tnsten.webp",
     percentage_offer: 0
   },
   {
@@ -26,7 +26,7 @@ export let products = [
     category_id: "Electronics",
     manufacturer_id: "ABC Electronics",
     stock_Available: 20,
-    photo: "https://www.zdnet.com/a/img/resize/06119597d8fde27e3074dc3bb4a9ce0f1851280a/2023/04/24/4e586f53-afa2-452d-baf4-cc7c78c2c5fb/samsung-galaxy-a54-5g.jpg?auto=webp&fit=crop&height=900&width=1200",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/smartphone_kxb92c.webp",
     percentage_offer: 0
   },
   {
@@ -36,7 +36,7 @@ export let products = [
     category_id: "Electronics",
     manufacturer_id: "ABC Electronics",
     stock_Available: 12,
-    photo: "https://m.media-amazon.com/images/I/61nZMpkPjcL.jpg",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/smartwatch_t9zjrv.webp",
     percentage_offer: 0
   },
   {
@@ -46,7 +46,7 @@ export let products = [
     category_id: "Home Security",
     manufacturer_id: "XYZ Security",
     stock_Available: 3,
-    photo: "https://m.media-amazon.com/images/I/71YacI4x9oS.jpg",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/wireless_security_camera_system_knfpfl.webp",
     percentage_offer: 0
   },
   {
@@ -56,7 +56,7 @@ export let products = [
     category_id: "Home Security",
     manufacturer_id: "XYZ Security",
     stock_Available: 6,
-    photo: "https://cdn.thewirecutter.com/wp-content/media/2021/06/smartdoorbell-2048px-0756.jpg",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/smart_doorbell_mcouep.webp",
     percentage_offer: 0
   },
   {
@@ -66,7 +66,7 @@ export let products = [
     category_id: "Home Security",
     manufacturer_id: "ABC Electronics",
     stock_Available: 9,
-    photo: "https://ae01.alicdn.com/kf/HTB1tuOCbcTxK1Rjy0Fgq6yovpXaz/Universal-Car-Central-Locking-Kit-Auto-Keyless-Entry-System-Two-Remote-Controller-Vehicle-Door-Lock-Car.jpg_Q90.jpg_.webp",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/keyless_entry_system_lvjwho.webp",
     percentage_offer: 0
   },
   {
@@ -76,7 +76,7 @@ export let products = [
     category_id: "Home Security",
     manufacturer_id: "XYZ Security",
     stock_Available: 15,
-    photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz2N-tHoQcNAr-YnlqTI9SVlvh4bVPA-9HBctiuDpzSfZtas6Q-6OHct9MEkF_2cOVQsY&usqp=CAU",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/window_sensors_yvm356.webp",
     percentage_offer: 0
   },
   {
@@ -86,7 +86,7 @@ export let products = [
     category_id: "Home Security",
     manufacturer_id: "ABC Electronics",
     stock_Available: 7,
-    photo: "https://cdn.shopify.com/s/files/1/0422/3985/2711/products/002.jpg?v=1680093799&width=1946",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/smart_lock_a53oyq.webp",
     percentage_offer: 0
   },
   {
@@ -96,7 +96,7 @@ export let products = [
     category_id: "Home Automation",
     manufacturer_id: "Techno Rize",
     stock_Available: 5,
-    photo: "https://www.moneysavingexpert.com/content/dam/hero-utilities-thermostat.jpg",
+    photo: "https://i5.walmartimages.com/seo/ECOBEE-EB-STATE5P-01-5th-Generation-SmartThermostat-Pro-Wi-Fi-Thermostat_56259fa5-fa8e-4d64-bf56-c13e92b4341b.cae73edb1188cf5c2548499f0b1fd23b.jpeg?odnHeight=372&odnWidth=372&odnBg=FFFFFF",
     percentage_offer: 0
   },
   {
@@ -106,7 +106,7 @@ export let products = [
     category_id: "Home Automation",
     manufacturer_id: "Techno Rize",
     stock_Available: 8,
-    photo: "https://cdn.shopify.com/s/files/1/2129/3845/articles/smart-lighting-generic-photo.jpg?v=1670797761",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/smart_lighting_system_rakbiq.webp",
     percentage_offer: 0
   },
   {
@@ -116,7 +116,7 @@ export let products = [
     category_id: "Home Automation",
     manufacturer_id: "GHI Edge",
     stock_Available: 12,
-    photo: "https://cf.shopee.sg/file/sg-11134201-22100-hd4p4wl639iv7c",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/smart_speaker_vqc781.webp",
     percentage_offer: 0
   },
   {
@@ -126,10 +126,9 @@ export let products = [
     category_id: "Home Automation",
     manufacturer_id: "Techno Rize",
     stock_Available: 6,
-    photo: "https://cairocart.com/pub/media/catalog/product/cache/f65e4f3f0d55f7c692e033a9434b3a7f/f/a/face.jpg",
+    photo: "https://m.media-amazon.com/images/I/41oxNHmjn5L._AC_.jpg",
     percentage_offer: 0
   },
-  //cocinas
   {
     name: "Induction Cooktop",
     description: "High-performance induction cooktop with multiple cooking zones and precise temperature control.",
@@ -137,7 +136,7 @@ export let products = [
     category_id: "Kitchen Appliances",
     manufacturer_id: "TechHome",
     stock_Available: 10,
-    photo: "https://www.ikea.com/ca/en/images/products/tvaersaeker-range-with-induction-cooktop-stainless-steel__1050232_pe844797_s5.jpg?f=s",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/induction_cooktop_mgzgq1.webp",
     percentage_offer: 0
   },
   {
@@ -157,7 +156,7 @@ export let products = [
     category_id: "Kitchen Tools",
     manufacturer_id: "KitchenGurus",
     stock_Available: 15,
-    photo: "https://m.media-amazon.com/images/I/718iZVcnVEL.jpg",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/kitchen_knife_set_uuuy0b.webp",
     percentage_offer: 0
   },
   {
@@ -167,10 +166,9 @@ export let products = [
     category_id: "Kitchen Appliances",
     manufacturer_id: "TechHome",
     stock_Available: 8,
-    photo: "https://helios-i.mashable.com/imagery/articles/01HZLAzVkYGRMhpTXRUrceo/hero-image.fill.size_1200x900.v1668536742.jpg",
+    photo: "https://tse4.mm.bing.net/th/id/OIP.ReQ2t4OJKbv0LXra-FSe1QHaHx?cb=thfvnextfalcon2&w=762&h=800&rs=1&pid=ImgDetMain&o=7&rm=3",
     percentage_offer: 0
-  }
-  ,
+  },
   {
     name: "Coffee Maker",
     description: "Automatic coffee maker with programmable brewing options and built-in grinder.",
@@ -178,10 +176,9 @@ export let products = [
     category_id: "Kitchen Appliances",
     manufacturer_id: "PowerTech Appliances",
     stock_Available: 12,
-    photo: "https://images-cdn.ubuy.com.sa/634ed841b5dfc729566bc10b-mixpresso-12-cup-drip-coffee-maker.jpg",
+    photo: "https://tse4.mm.bing.net/th/id/OIP.Kx4gYoKYpiPFlbc6PpN1_wAAAA?cb=thfvnextfalcon2&rs=1&pid=ImgDetMain&o=7&rm=3",
     percentage_offer: 0
   },
-  // heladeras
   {
     name: "French Door Refrigerator",
     description: "Spacious French door refrigerator with multiple compartments and adjustable shelves.",
@@ -189,7 +186,7 @@ export let products = [
     category_id: "Refrigerators",
     manufacturer_id: "TechHome",
     stock_Available: 10,
-    photo: "https://s.turbifycdn.com/aah/usappliance/erfg2393as-electrolux-36-counter-depth-french-door-refrigerator-stainless-steel-38.jpg",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/french_door_refrigerator_tti7eh.webp",
     percentage_offer: 0
   },
   {
@@ -199,7 +196,7 @@ export let products = [
     category_id: "Refrigerators",
     manufacturer_id: "PowerTech Appliances",
     stock_Available: 5,
-    photo: "https://5.imimg.com/data5/SH/JU/MY-2341017/samsung-side-by-side-refrigerator-500x500.jpg",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/side_by_side_refrigerator_l3hffy.webp",
     percentage_offer: 0
   },
   {
@@ -209,7 +206,7 @@ export let products = [
     category_id: "Refrigerators",
     manufacturer_id: "Tech Wizards",
     stock_Available: 15,
-    photo: "https://m.media-amazon.com/images/I/81GOA8TH+XL.jpg",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/mini_fridge_tz2o3a.webp",
     percentage_offer: 0
   },
   {
@@ -219,7 +216,7 @@ export let products = [
     category_id: "Refrigerators",
     manufacturer_id: "TechHome",
     stock_Available: 8,
-    photo: "https://www.biancos.com/files/image/attachment/6379/1MRT118FFFE1.jpg",
+    photo: "https://target.scene7.com/is/image/Target/GUEST_9cfc937c-5f94-482c-a8f7-20df174063a6",
     percentage_offer: 0
   },
   {
@@ -231,9 +228,7 @@ export let products = [
     stock_Available: 12,
     photo: "https://tvguru.co.ke/wp-content/uploads/2021/11/Samsung-323-Litres-RB-33T307058-Bespoke-Bottom-Mount-Freezer-Refrigerator-open.webp",
     percentage_offer: 0
-  }
-  ,
-  // microhondas
+  },
   {
     name: "Countertop Microwave",
     description: "Compact countertop microwave with multiple power levels and preset cooking options.",
@@ -241,7 +236,7 @@ export let products = [
     category_id: "Microwaves",
     manufacturer_id: "TechHome",
     stock_Available: 10,
-    photo: "https://s42814.pcdn.co/wp-content/uploads/2022/01/best_small_microwave_panel-scaled.jpg.optimal.jpg",
+    photo: "https://pixel.nymag.com/imgs/daily/strategist/2018/01/29/best-microwave/05-29012018.w710.h473.2x.jpg",
     percentage_offer: 0
   },
   {
@@ -251,7 +246,7 @@ export let products = [
     category_id: "Microwaves",
     manufacturer_id: "PowerTech Appliances",
     stock_Available: 5,
-    photo: "https://www.ikea.com/us/en/images/products/medelniva-over-the-range-microwave-stainless-steel__0895627_pe782379_s5.jpg?f=s",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/over_the_range_microwave_lrcpf9.webp",
     percentage_offer: 0
   },
   {
@@ -261,7 +256,7 @@ export let products = [
     category_id: "Microwaves",
     manufacturer_id: "Tech Wizards",
     stock_Available: 15,
-    photo: "https://cdn.shopify.com/s/files/1/2155/6875/collections/Untitled-6_ff93d201-642a-4358-a233-29a172fa8b24_1200x1200.jpg?v=1657094072",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/microwave_with_grill_function_vmbyhs.webp",
     percentage_offer: 0
   },
   {
@@ -271,7 +266,7 @@ export let products = [
     category_id: "Microwaves",
     manufacturer_id: "TechHome",
     stock_Available: 8,
-    photo: "https://cdn.shopify.com/s/files/1/0581/9547/6573/products/sharpmwdrawerkb6524psybg2.webp?v=1669827848",
+    photo: "https://zlinekitchen.com/cdn/shop/files/MWD-30--RBIV-304-30--lifestyle--angled--02_de53538d-cec8-417b-b37e-c8867a01adac.jpg?v=1731313499&width=493",
     percentage_offer: 0
   },
   {
@@ -283,9 +278,7 @@ export let products = [
     stock_Available: 12,
     photo: "https://i5.walmartimages.com/asr/d21694bb-9d54-4ef7-b7b4-c0266ef8de98.feda21d2b5ee8763cc58b5c4b06d736b.jpeg",
     percentage_offer: 0
-  }
-  ,
-  // electrodomesticos pequeños
+  },
   {
     name: "Toaster",
     description: "2-slice toaster with variable browning settings and removable crumb tray.",
@@ -293,7 +286,7 @@ export let products = [
     category_id: "Small Kitchen Appliances",
     manufacturer_id: "TechHome",
     stock_Available: 10,
-    photo: "https://cb.scene7.com/is/image/Crate/CuisinartClassicTostrSSF20/$web_pdp_main_carousel_zoom_low$/201029182257/cuisinart-classic-2-slice-toaster.jpg",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/toaster_z1mqde.webp",
     percentage_offer: 0
   },
   {
@@ -303,7 +296,7 @@ export let products = [
     category_id: "Small Kitchen Appliances",
     manufacturer_id: "PowerTech Appliances",
     stock_Available: 5,
-    photo: "https://cdn.shopify.com/s/files/1/0277/5610/1732/products/KW-1365_1000x.jpg?v=1671076136",
+    photo: "https://tse2.mm.bing.net/th/id/OIP.y5mC9o8K1WUBCo3O8KT1HAAAAA?cb=thfvnextfalcon2&rs=1&pid=ImgDetMain&o=7&rm=3",
     percentage_offer: 0
   },
   {
@@ -313,7 +306,7 @@ export let products = [
     category_id: "Small Kitchen Appliances",
     manufacturer_id: "Tech Wizards",
     stock_Available: 15,
-    photo: "https://m.media-amazon.com/images/I/815s4puX+SL.jpg",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/hand_blender_hiotva.webp",
     percentage_offer: 0
   },
   {
@@ -323,7 +316,7 @@ export let products = [
     category_id: "Small Kitchen Appliances",
     manufacturer_id: "TechHome",
     stock_Available: 8,
-    photo: "https://food.fnr.sndimg.com/content/dam/images/food/products/2019/4/24/rx_cuisinart-elemental-13-cup-food-processor.jpeg.rend.hgtvcom.616.616.suffix/1556133605985.jpeg",
+    photo: "https://tse4.mm.bing.net/th/id/OIP.MBN55Cxiq7qZwwOltIl3MAHaHa?cb=thfvnextfalcon2&rs=1&pid=ImgDetMain&o=7&rm=3",
     percentage_offer: 0
   },
   {
@@ -335,9 +328,7 @@ export let products = [
     stock_Available: 12,
     photo: "https://m.media-amazon.com/images/I/71cbCSNVeDL.jpg",
     percentage_offer: 0
-  }
-  ,
-  // aires acondicionados
+  },
   {
     name: "Split Air Conditioner",
     description: "Energy-efficient split air conditioner with cooling and heating capabilities.",
@@ -345,7 +336,7 @@ export let products = [
     category_id: "Air Conditioners",
     manufacturer_id: "TechHome",
     stock_Available: 10,
-    photo: "https://lirp.cdn-website.com/eb02f697/dms3rep/multi/opt/Package+Unit+and+Split+System+Air+Conditioner-1920w.jpg",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/split_air_conditioner_buglc9.webp",
     percentage_offer: 0
   },
   {
@@ -355,7 +346,7 @@ export let products = [
     category_id: "Air Conditioners",
     manufacturer_id: "PowerTech Appliances",
     stock_Available: 5,
-    photo: "https://www.etonline.com/sites/default/files/images/2022-06/air.jpeg",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/window_air_conditioner_toy2kg.webp",
     percentage_offer: 0
   },
   {
@@ -365,7 +356,7 @@ export let products = [
     category_id: "Air Conditioners",
     manufacturer_id: "Tech Wizards",
     stock_Available: 15,
-    photo: "https://pyxis.nymag.com/v1/imgs/9b1/310/061d2ff4f179fe626e15ca0f45327d51e7-portable-ac-unit.2x.rsocial.w600.jpg",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/portable_air_conditioner_otgs8k.webp",
     percentage_offer: 0
   },
   {
@@ -385,11 +376,9 @@ export let products = [
     category_id: "Air Conditioners",
     manufacturer_id: "PowerTech Appliances",
     stock_Available: 12,
-    photo: "https://moeshouse.com/cdn/shop/products/16a-wifi-smart-air-conditioner-companion-ir-wireless-remote-controller-wall-plug-de-eu-version-175066.jpg?v=1615966113&width=1445",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/smart_wi_fi_air_conditioner_nusgbk.webp",
     percentage_offer: 0
-  }
-  ,
-  // televisores
+  },
   {
     name: "Smart LED TV",
     description: "High-definition smart LED TV with built-in Wi-Fi and streaming capabilities.",
@@ -397,7 +386,7 @@ export let products = [
     category_id: "Televisions",
     manufacturer_id: "ABC Electronics",
     stock_Available: 10,
-    photo: "https://images.philips.com/is/image/philipsconsumer/08fdbd7d447644d1b3d4afb901202f0f?$jpglarge$&wid=960",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/smart_led_tv_zuw8iz.webp",
     percentage_offer: 0
   },
   {
@@ -427,7 +416,7 @@ export let products = [
     category_id: "Televisions",
     manufacturer_id: "ABC Electronics",
     stock_Available: 8,
-    photo: "https://image-us.samsung.com/SamsungUS/home/television-home-theater/tvs/03242023/QN85B.jpg",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/qled_tv_jgqljl.webp",
     percentage_offer: 0
   },
   {
@@ -437,11 +426,9 @@ export let products = [
     category_id: "Televisions",
     manufacturer_id: "DigitalEvo",
     stock_Available: 12,
-    photo: "https://manuals.plus/wp-content/uploads/2022/04/SEURA-UB4-85-Full-Sun-Series-85-Inch-4K-Ultra-HD-LED-Outdoor-TV-featured.jpg",
+    photo: "https://dtronicshomeandbusiness.com/images/easyblog_articles/131/4-reasons-you-should-get-a-sunbrite-outdoor-tv-right-now.jpg",
     percentage_offer: 0
-  }
-  ,
-  // parlantes
+  },
   {
     name: "Bluetooth Speaker",
     description: "Portable Bluetooth speaker with built-in rechargeable battery and wireless connectivity.",
@@ -469,7 +456,7 @@ export let products = [
     category_id: "Speakers",
     manufacturer_id: "GHI Edge",
     stock_Available: 15,
-    photo: "https://outtec.com.ar/wp-content/uploads/2022/06/8e9f6a4b57107fb65365aaa1d4fd.jpg",
+    photo: "https://tse1.mm.bing.net/th/id/OIP.1pA9FNn2KpPSrwmtT-4FeAAAAA?cb=thfvnextfalcon2&rs=1&pid=ImgDetMain&o=7&rm=3",
     percentage_offer: 0
   },
   {
@@ -489,11 +476,9 @@ export let products = [
     category_id: "Speakers",
     manufacturer_id: "DigitalEvo",
     stock_Available: 12,
-    photo: "https://stuffoholics.com/wp-content/uploads/2018/04/wireless-surround-sound.jpg",
+    photo: "https://tse1.mm.bing.net/th/id/OIP.TNQ2hojuBQp3W52vvp7qngAAAA?cb=thfvnextfalcon2&rs=1&pid=ImgDetMain&o=7&rm=3",
     percentage_offer: 0
-  }
-  ,
-  // cosas de computacion
+  },
   {
     name: "Laptop",
     description: "Powerful laptop with high-performance specifications and versatile functionality.",
@@ -501,7 +486,7 @@ export let products = [
     category_id: "Computers",
     manufacturer_id: "ABC Electronics",
     stock_Available: 10,
-    photo: "https://www.hd-tecnologia.com/imagenes/articulos/2022/05/TOP-5-mejores-laptops-para-estudiantes-en-2022-1.jpg",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/laptop_j59qif.webp",
     percentage_offer: 0
   },
   {
@@ -511,7 +496,7 @@ export let products = [
     category_id: "Computers",
     manufacturer_id: "DigitalEvo",
     stock_Available: 5,
-    photo: "https://m.media-amazon.com/images/I/71FxRn-grSL.jpg",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/wireless_keyboard_and_mouse_combo_ccadit.webp",
     percentage_offer: 0
   },
   {
@@ -531,7 +516,7 @@ export let products = [
     category_id: "Computers",
     manufacturer_id: "ABC Electronics",
     stock_Available: 8,
-    photo: "https://cdn.eteknix.com/wp-content/uploads/2022/11/Gaming-set.jpg",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/gaming_keyboard_yliqc7.webp",
     percentage_offer: 0
   },
   {
@@ -541,11 +526,9 @@ export let products = [
     category_id: "Computers",
     manufacturer_id: "DigitalEvo",
     stock_Available: 12,
-    photo: "https://importessv.com/wp-content/uploads/2021/01/Imagenes-de-art.-3-1.png",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/wireless_bluetooth_headset_daclwk.webp",
     percentage_offer: 0
-  }
-  ,
-  // muebles
+  },
   {
     name: "Sofa",
     description: "Comfortable sofa with stylish design and plush cushions.",
@@ -553,7 +536,7 @@ export let products = [
     category_id: "Furniture",
     manufacturer_id: "UrbanLiving",
     stock_Available: 10,
-    photo: "https://images.hola.com/imagenes/decoracion/20210618191638/elegir-color-sofa-decoracion-salones-il/0-965-545/como-elegir-el-color-del-sofa-10a-a.jpg",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/sofa_vvg0cg.webp",
     percentage_offer: 0
   },
   {
@@ -583,7 +566,7 @@ export let products = [
     category_id: "Furniture",
     manufacturer_id: "UrbanLiving",
     stock_Available: 8,
-    photo: "https://images.thdstatic.com/productImages/9441fd93-ab7a-4269-a369-fdd26ece8739/svn/black-j-e-home-tv-stands-gd-w67933435-64_600.jpg",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/tv_stand_anbbe7.webp",
     percentage_offer: 0
   },
   {
@@ -593,10 +576,9 @@ export let products = [
     category_id: "Furniture",
     manufacturer_id: "DesignMakers",
     stock_Available: 12,
-    photo: "https://cdn.shopify.com/s/files/1/1557/9661/products/MF-22MKD163LeftRet-1000_1024x1024.jpg?v=1674529783",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/office_desk_sboo3a.webp",
     percentage_offer: 0
-  }
-  ,
+  },
   {
     name: "Bookshelf",
     description: "Stylish bookshelf with multiple shelves for organizing and displaying books and decor.",
@@ -604,7 +586,7 @@ export let products = [
     category_id: "Furniture",
     manufacturer_id: "StyleCraft",
     stock_Available: 10,
-    photo: "https://www.whalenfurniture.com/wp-content/uploads/2021/01/00764053525032_SWAV1-scaled-1.jpg",
+    photo: "https://ak1.ostkcdn.com/images/products/is/images/direct/a05a2f52b3af5fd73debaf3642543e7a973158cf/75-Inch-Tall-Arched-Modern-Open-Bookshelf-Etagere-Bookcase.jpg",
     percentage_offer: 0
   },
   {
@@ -614,7 +596,7 @@ export let products = [
     category_id: "Furniture",
     manufacturer_id: "UrbanLiving",
     stock_Available: 5,
-    photo: "https://cdn.shopify.com/s/files/1/2268/9819/products/Stevie_3_4_Chest_White_Main_S1_1500x.jpg?v=1613571750",
+    photo: "https://www.ikea.com/gb/en/images/products/hemnes-chest-of-6-drawers-white-stain__0858993_pe655295_s5.jpg?f=xxs",
     percentage_offer: 0
   },
   {
@@ -644,7 +626,7 @@ export let products = [
     category_id: "Furniture",
     manufacturer_id: "UrbanLiving",
     stock_Available: 12,
-    photo: "https://m.media-amazon.com/images/I/71zAaIM-zcL.jpg",
+    photo: "https://res.cloudinary.com/dgzqsiy5e/image/upload/wardrobe_closet_dwou8q.webp",
     percentage_offer: 0
-  }  
+  }
 ]
