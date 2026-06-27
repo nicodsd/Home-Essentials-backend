@@ -37,7 +37,6 @@ let data = async () => {
     await newManufacturers(manufacturers)
     await newProducts(products)
 
-    console.log('done!')
 }
 
 data()

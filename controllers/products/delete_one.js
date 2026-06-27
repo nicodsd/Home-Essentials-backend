@@ -10,7 +10,6 @@ let destroy = async(req,res,next) => {
             message: "Product delete",
         })
     } catch (error) {
-       console.log(error)
     }
 }
 

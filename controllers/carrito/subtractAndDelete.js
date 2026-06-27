@@ -13,7 +13,6 @@ const update = async(req, res, next) => {
                 const data = {
                     quantity: cart.quantity - 1
                 }
-                //console.log("cart", cart);
                 let update = await Cart.findByIdAndUpdate(
                                             cart._id,
                                             data,

@@ -18,7 +18,6 @@ const verifyEmail =  async(req,res,next) => {
             }else res.status(404).json('Mail verification failed, invalid token')
 
         }catch(error){
-            console.log(error)
             res.status(500).json(error.message)
         }
     } 

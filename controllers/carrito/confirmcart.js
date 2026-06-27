@@ -5,7 +5,6 @@ import Order from '../../models/orders.js'
 const confirmPurchase = async (req, res) => {
   try {
     const { userEmail } = req.query;
-    //console.log(req.body);
     let user = await User.findOne({ email: userEmail});
     const cart = await Cart.find({ user: user._id });
 
@@ -39,7 +38,6 @@ for (const item of cart) {
       { new: true }
     );
     if (update) {
-      console.log(`${product.name} actualizado`);
     }
 
     await Cart.findOneAndDelete({ user: user._id });
@@ -66,7 +64,6 @@ const order = await Order.create({
         message: ["Congratulations, successful purchase"]
     })
   } catch (error) {
-    console.log(error);
     res.status(500).json({ message: 'An error has occurred' });
   }
 };

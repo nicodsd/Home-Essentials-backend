@@ -2,7 +2,6 @@ import User from '../../models/User.js'
 
 let read_one = async(req,res,next) => {
     try {
-        //console.log("res", res)
         let user = await User.findOne({
             email: req.params.email})
             if(user){

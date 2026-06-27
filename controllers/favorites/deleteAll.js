@@ -5,10 +5,8 @@ const removeAllFavorites = async (req, res) => {
         try {
         const { userEmail } = req.query;
         let user = await User.findOne({ email: userEmail, });
-        //console.log("user", user);
         if(user){
         let destroyed = await Favorites.deleteMany({user_id: user._id})
-        //console.log("destroyed.deletedCount", destroyed.deletedCount);
                     if(destroyed.deletedCount !== 0) {
                         return res.status(200).json({
                             success: true,

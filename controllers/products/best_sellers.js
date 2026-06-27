@@ -22,7 +22,6 @@ const read = async (req, res, next) => {
       totalCount,
     });
   } catch (error) {
-    console.log(error);
     return res.status(400).json({ error: "Ha ocurrido un problema" });
   }
 };
