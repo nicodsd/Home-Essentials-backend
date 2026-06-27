@@ -40,7 +40,6 @@ const addAndUpdateToCart = async (req, res) => {
           const data = {
             quantity: cart.quantity + 1
           }
-          console.log("cart", cart);
           let update = await Cart.findByIdAndUpdate(
                                     cart._id,
                                     data,
@@ -72,7 +71,6 @@ const addAndUpdateToCart = async (req, res) => {
       })
     }
   } catch (error) {
-    console.log(error)
     res.status(500).json({ message: 'User or product does not exist'});
   }
 };

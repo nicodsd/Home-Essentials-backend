@@ -7,7 +7,6 @@ const viewCart = async (req, res) => {
     const { userEmail } = req.params; 
     let user = await User.findOne({ email: userEmail});
     const carts = await Cart.find({ user: user._id },"-_id product_id quantity").populate("product_id");
-    //console.log(carts);
     if (carts) {
         res.status(200).json({
           success: true,
@@ -20,7 +19,6 @@ const viewCart = async (req, res) => {
       })
     }
   } catch (error) {
-    console.log(error);
     res.status(500).json({ message: 'An error occurred' });
   }
 };

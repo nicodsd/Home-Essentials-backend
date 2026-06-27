@@ -12,7 +12,6 @@ let update = async (req, res, next) => {
       product,
     });
   } catch (error) {
-    console.log(error);
     return res.status(500).json({
       success: false,
       error: "Error updating the product",

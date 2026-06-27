@@ -34,7 +34,6 @@ const payment = async (req, res, next) => {
 
         res.status(201).json({ preferenceId: response.body.id });
     } catch (error) {
-        console.log(error);
         res.status(500).json({ error: 'You could not donate due to an error' });
     }
 };
