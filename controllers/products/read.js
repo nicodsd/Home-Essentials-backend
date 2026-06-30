@@ -1,5 +1,5 @@
 import Products from "../../models/Product.js"
-let read = async(req, res, next) => {
+let read = async (req, res, next) => {
     let queries = {}
     let sort = {}
     if (req.query.manufacturer_id) {
@@ -11,13 +11,15 @@ let read = async(req, res, next) => {
     if (req.query.order) {
         sort.price = req.query.order
     }
-    try{
+    try {
         let all = await Products.find(queries).sort(sort)
         return res.status(200)
-        .json({
+            .json({
                 products: all
-            })                            
-    }catch(error){}
-            return res.status(400).json({error: "a ocurrido un problema"})
+            })
+    } catch (error) {
+        console.error("Error al leer productos:", error);
+        return res.status(500).json({ error: "Error interno del servidor" })
+    }
 }
 export default read
